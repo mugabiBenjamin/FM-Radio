@@ -1,0 +1,36 @@
+# Built outputs
+/build
+app/build
+
+# Gradle
+.gradle
+gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration (never commit)
+local.properties
+gradle/gradle-daemon-jvm.properties
+
+# IDE - IntelliJ / Android Studio
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/.gitignore
+*.iml
+
+# macOS
+.DS_Store
+
+# Native builds
+.externalNativeBuild
+.cxx
+
+# Keystore files (never commit signing keys)
+*.jks
+*.keystore
+
+# Configuration cache reports (generated, not source)
+build/reports/configuration-cache
